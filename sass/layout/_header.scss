@@ -1,0 +1,70 @@
+.site-header {}
+
+.navbar {
+    background-color: rgb(43, 43, 43);
+    padding: 0 30px;
+}
+
+.navbar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.nav-actions {
+    display: none;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-item-link {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: center;
+}
+
+.nav-signup-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+@media (min-width:900px) {
+    .navbar {
+        background-color: rgb(43, 43, 43);
+        padding: 0 50px;
+    }
+
+    .navbar-wrapper {
+        padding: 20px 0;
+    }
+
+    .nav-menu-img {
+        display: none;
+    }
+
+    .nav-actions {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .nav-signup-btn {
+        padding: 19px 30px;
+        border-radius: 20px;
+        background: rgb(162, 89, 255);
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 140%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,131 @@
+.site-main {}
+
+.hero-section {
+    background-color: rgb(43, 43, 43);
+}
+
+.hero-top-img {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 100%;
+    }
+}
+
+.hero-top-img-tab {
+    img {
+        display: none;
+    }
+}
+
+.hero-top-img-desk {
+    img {
+        display: none;
+    }
+}
+
+.hero-content {}
+
+.hero-title-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-title {
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero-form {
+    padding: 0 0 40px 0;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.input-name {
+    border: 1px solid rgb(133, 133, 132);
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    padding: 16px 20px;
+    width: 100%;
+
+    &::placeholder {
+        color: rgb(43, 43, 43);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        text-align: left;
+    }
+}
+
+.form-create-btn {
+    width: 100%;
+    padding: 12px 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(162, 89, 255);
+    border: none;
+}
+
+
+
+@media (min-width:900px) {
+    .hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-top-img {
+        img {
+            display: none;
+        }
+    }
+
+    .hero-top-img-tab {
+        img {
+            display: block;
+        }
+    }
+}
+
+@media (min-width:1100px) {
+    .hero-top-img-tab {
+        img {
+            display: none;
+        }
+    }
+
+    .hero-top-img-desk {
+        img {
+            display: block;
+        }
+    }
+}

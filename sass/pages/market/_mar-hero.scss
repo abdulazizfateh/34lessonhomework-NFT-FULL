@@ -1,0 +1,56 @@
+.site-main {}
+
+.hero2-section {
+    background-color: rgb(43, 43, 43);
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
+
+.hero2-section-wrapper {
+    padding: 40px 0;
+    background-color: rgb(43, 43, 43);
+}
+
+.hero2-title {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.hero2-text {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.hero2-form {
+
+    label {
+        .search {
+            width: 100%;
+            padding: 19px 20px;
+            border: 1px solid rgb(59, 59, 59);
+            border-radius: 20px;
+            background-color: transparent;
+
+
+            &::placeholder {
+                color: rgb(133, 133, 132);
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 140%;
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media (min-width:600px) {
+    .search {}
+}
